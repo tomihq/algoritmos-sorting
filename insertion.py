@@ -3,6 +3,7 @@ Insertion Sort
 Algoritmo estable, su complejidad en peor caso es O(n^2) (esta todo desordenado) y el mejor caso es O(n) cuando ya está ordenado.
 Tengo que ir comparando cada elem con todos los anteriores, y si encontre uno que es menor, entonces tengo que ir swappeando.
 [3, 2, 1] => [3, 1, 2] => [1, 3, 2] => [1, 2, 3]
+Como cada vez tengo que ir comparando con menos de atrás, tengo que ir reduciendo la variable del ciclo interno para llegar al caso base (el primero)
 """
 
 def main():
